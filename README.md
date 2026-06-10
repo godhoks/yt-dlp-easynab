@@ -36,6 +36,9 @@ EasyNab relies on three small programs: `yt-dlp.exe`, `ffmpeg.exe`, and `ffprobe
 
 You only do this once. After setup, just use `Download-Video.bat` from now on.
 
+> 🔒 `setup.ps1` verifies every download against the official **SHA-256 checksums**
+> published by yt-dlp and FFmpeg-Builds. If a file is corrupt or tampered with, setup stops.
+
 ## Usage
 Double-click **`Download-Video.bat`**, then follow the prompts:
 1. Paste the video URL

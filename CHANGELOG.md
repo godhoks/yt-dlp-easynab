@@ -5,6 +5,13 @@ All notable changes to EasyNab are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Security
+- `setup.ps1` now verifies every download against the **official SHA-256 checksums**
+  published by yt-dlp (`SHA2-256SUMS`) and FFmpeg-Builds (`checksums.sha256`).
+  Checksums are fetched live, so they never go stale; a mismatch aborts setup.
+
 ## [1.0.0] - 2026-06-10
 
 First public release.
