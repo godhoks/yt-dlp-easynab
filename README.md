@@ -21,13 +21,20 @@ Paste a URL, pick a quality, done — no command line needed.
 - Internet connection
 
 ## Setup (one time)
-1. Get the code: click the green **Code** button → **Download ZIP** (then unzip), or `git clone` this repo.
-2. Right-click **`setup.ps1`** → **Run with PowerShell**.
-   It downloads `yt-dlp.exe`, `ffmpeg.exe`, and `ffprobe.exe` into the folder.
-   - If PowerShell blocks the script, open a terminal in the folder and run:
+EasyNab relies on three small programs: `yt-dlp.exe`, `ffmpeg.exe`, and `ffprobe.exe`.
+**You do NOT install them manually — `setup.ps1` downloads all three for you, automatically.**
+
+1. Get the code: click the green **Code** button → **Download ZIP**, then unzip
+   (or `git clone` this repo).
+2. Right-click **`setup.ps1`** → **Run with PowerShell**, then wait.
+   It automatically downloads `yt-dlp.exe`, `ffmpeg.exe`, and `ffprobe.exe` into
+   the same folder. When it prints **Done**, you're ready.
+   - If Windows blocks the script, open a terminal in the folder and run:
      ```powershell
      powershell -ExecutionPolicy Bypass -File .\setup.ps1
      ```
+
+You only do this once. After setup, just use `Download-Video.bat` from now on.
 
 ## Usage
 Double-click **`Download-Video.bat`**, then follow the prompts:
