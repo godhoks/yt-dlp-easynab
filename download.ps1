@@ -15,7 +15,7 @@ $defaultDir = Join-Path $env:USERPROFILE 'Downloads\Video'
 
 Write-Host ""
 Write-Host "==============================" -ForegroundColor Cyan
-Write-Host "   EasyNab   v1.0.0"           -ForegroundColor Cyan
+Write-Host "   EasyNab   v1.0.1"           -ForegroundColor Cyan
 Write-Host "   Video Downloader for Windows" -ForegroundColor Cyan
 Write-Host "==============================" -ForegroundColor Cyan
 
