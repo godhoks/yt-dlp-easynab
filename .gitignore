@@ -1,0 +1,21 @@
+# Downloaded executables - users obtain these via setup.ps1 (keep repo small, avoid 100MB limit + GPL)
+*.exe
+yt-dlp.exe
+ffmpeg.exe
+ffprobe.exe
+
+# Temp / test / download artifacts
+_test/
+_ff_tmp/
+*.zip
+*.part
+*.ytdl
+*.webm
+*.mp4
+*.mp3
+*.m4a
+
+# OS junk
+Thumbs.db
+desktop.ini
+*.lnk
